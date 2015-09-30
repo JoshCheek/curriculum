@@ -288,6 +288,7 @@ This method takes two parameters:
 * `year` as an integer for any year reported in the data
 
 A call to this method with any unknown `year` should return `nil`.
+If the race is unknown, it raises an `UnknownRaceError`.
 
 The method returns a truncated three-digit floating point number representing a percentage.
 
